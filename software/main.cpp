@@ -73,7 +73,7 @@ void pinSetup() {
 void motorStep (uint8_t direction, uint8_t step, uint16_t delay) {
 	if(direction == FORWARD) {
 		while(step > 0) {
-			// îáìîòêà A		// îáìîòêà Â
+			// обмотка A				// обмотка В
 			key1State(HIGH);
 			delayMs(delay/2);
 								key2State(HZ);
@@ -105,7 +105,7 @@ void motorStep (uint8_t direction, uint8_t step, uint16_t delay) {
 	}
 	else if(direction == BACK) {
 		while(step > 0) {
-			// îáìîòêà A		// îáìîòêà Â
+			// обмотка А				// обмотка В
 			key2State(HIGH);
 			delayMs(delay/2);
 								key1State(HZ);
