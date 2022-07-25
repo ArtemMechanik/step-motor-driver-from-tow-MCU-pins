@@ -6,7 +6,7 @@
 ![Топология платы](https://user-images.githubusercontent.com/107491147/180859369-2ededb11-29a9-4ffa-9b47-0795364b08c4.jpg)
 
 3D модель печатной платы Altium Designer:
-![3D модель печатной платы](https://user-images.githubusercontent.com/107491147/180858299-2924f81b-b42e-4d4d-9349-16fe295ebd9f.jpg)
+![3D модель печатной платы](https://github.com/ArtemMechanik/step-motor-driver-from-tow-MCU-pins/blob/e6e618f87c6f3b225f60fe9b9aeeb4eeddc96dfe/source/3D%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%BE%D0%B9%20%D0%BF%D0%BB%D0%B0%D1%82%D1%8B.jpg)
 
 Отладочная плата изготовлена по технологии ЛУТ:
 ![отладочная плата ЛУТ](https://github.com/ArtemMechanik/step-motor-driver-from-tow-MCU-pins/blob/b09a7d34708fb8837f7ed4e5dbdbdd89ef3b1333/source/%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D0%9B%D0%A3%D0%A2.jpg)
