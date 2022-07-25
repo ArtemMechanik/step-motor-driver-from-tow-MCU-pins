@@ -7,6 +7,7 @@
 ![Схема ключа улучшенная](https://github.com/ArtemMechanik/step-motor-driver-from-tow-MCU-pins/blob/b61eb0977011439f97441e0c371d6636d44283ec/V2/source/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%20(%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F).jpg)
 
 Модель коммутатора в Multisim 14.1:
+
 ![Схема ключа улучшенная](https://github.com/ArtemMechanik/step-motor-driver-from-tow-MCU-pins/blob/b61eb0977011439f97441e0c371d6636d44283ec/V2/source/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%20(%D1%83%D0%BB%D1%83%D1%87%D1%88%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F).jpg)
 
 Схема Н-моста на полевых транзисторах:
