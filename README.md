@@ -1,5 +1,7 @@
 # Драйвер шагового двигателя, управляемый двумя пинами микроконтроллера
 Управление двумя H-мостами на транзисторах, используя два пина микроконтроллера с тремя состояниями.
+![Схема ключа](https://github.com/ArtemMechanik/step-motor-driver-from-tow-MCU-pins/blob/80592bf404732544977e2eb65395976c6f3e5cff/source/%D0%A1%D1%85%D0%B5%D0%BC%D0%B0%20%D0%BA%D0%BB%D1%8E%D1%87%D0%B0.jpg)
+
 Топология печатной платы Altium Designer:
 ![Топология платы](https://user-images.githubusercontent.com/107491147/180859369-2ededb11-29a9-4ffa-9b47-0795364b08c4.jpg)
 
