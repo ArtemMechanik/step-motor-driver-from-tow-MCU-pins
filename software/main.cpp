@@ -1,8 +1,6 @@
 /*
- * debugging_board_3_Software.cpp
- *
- * Created: 26.05.2022 8:04:13
- * Author : Artem
+РјРёРєСЂРѕРєРѕРЅС‚СЂРѕР»Р»РµСЂ ATtiny13A
+С‚Р°РєС‚РѕРІР°СЏ С‡Р°СЃС‚РѕС‚Р° 9,6 РњР“С†
  */ 
 #define F_CPU 9600000UL
 
@@ -10,7 +8,7 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
-//назначение выводов
+//Г­Г Г§Г­Г Г·ГҐГ­ГЁГҐ ГўГ»ГўГ®Г¤Г®Гў
 #define BUTTON1_PIN PB2
 #define BUTTON2_PIN PB1
 #define LED_PIN		PB0
@@ -27,7 +25,7 @@
 #define FORWARD	0
 #define BACK	1
 
-#define DEADTIME	1000 //мкС
+#define DEADTIME	1000 //Г¬ГЄГ‘
 
 
 
@@ -75,7 +73,7 @@ void pinSetup() {
 void motorStep (uint8_t direction, uint8_t step, uint16_t delay) {
 	if(direction == FORWARD) {
 		while(step > 0) {
-			// обмотка A		// обмотка В
+			// Г®ГЎГ¬Г®ГІГЄГ  A		// Г®ГЎГ¬Г®ГІГЄГ  Г‚
 			key1State(HIGH);
 			delayMs(delay/2);
 								key2State(HZ);
@@ -107,7 +105,7 @@ void motorStep (uint8_t direction, uint8_t step, uint16_t delay) {
 	}
 	else if(direction == BACK) {
 		while(step > 0) {
-			// обмотка A		// обмотка В
+			// Г®ГЎГ¬Г®ГІГЄГ  A		// Г®ГЎГ¬Г®ГІГЄГ  Г‚
 			key2State(HIGH);
 			delayMs(delay/2);
 								key1State(HZ);
